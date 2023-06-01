@@ -38,11 +38,6 @@ header {
     line-height: 3cap;
     color: #D9D9D9;
 }
-.circulo {
-    border-radius: 230px;
-    width: 280px;
-    height: 280px;
-}
 h2 {
     font-family: 'Poppins';
     font-style: normal;
@@ -107,3 +102,9 @@ h3 {
     margin: -9px;
     border-radius: 230px;
 }
+.circle1 img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    }
+
