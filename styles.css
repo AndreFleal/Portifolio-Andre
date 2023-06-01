@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,700,900%27);
+
 header {
     display: flex;
     justify-content: space-between;
@@ -58,6 +59,7 @@ p {
 }
 body {
     background-color: black;
+    font-family: 'Poppins';
 }
 .container-imagens {
     display: flex;
