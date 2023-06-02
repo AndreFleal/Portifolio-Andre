@@ -82,7 +82,9 @@ p {
     height: 120px;
 
 }
-
+ul {
+    list-style: none;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -118,6 +120,25 @@ h3 {
     height: 280px;
     border-radius: 50%;
     }
+.contact {
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A7A7A7;
+    line-height: 35px;
+    margin-top: 100px;
+    margin-bottom: 400px;
+     }
+    .aboutme {
+        font-size: 20px;
+        line-height: 35px;
+        padding: 14px 100px;
+    }
+    
+
     /* Estilos para dispositivos móveis */
     @media only screen and (max-width: 767px) {
         
@@ -136,15 +157,15 @@ h3 {
             margin-left: 10px;
         }
         .circle1 {
-            width: 180px;
-            height: 180px;
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
             margin-left: 90px;
             margin-top: 20px;
         }
         .circle1 img {
-            width: 180px;
-            height: 180px;
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
             }
         .navegacao-interna {
@@ -157,8 +178,21 @@ h3 {
             margin-top: 50px;
             margin-right: 110px;
         }
-
-    }
+        .container-imagens {
+            margin-left: 30px;
+            gap: 50px;
+         }
+        h2 {
+            font-size: 28px;
+            }
+        p {
+            font-size: 28px;
+           }
+        .aboutme {
+            padding: 5px;
+            font-size: 16px;
+        }   
+}
 
     /* Estilos para tablets */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -166,6 +200,52 @@ h3 {
         body {
             font-size: 16px;
         }
+        body {
+            font-size: 14px;
+            flex-wrap: wrap;
+        }
+        header {
+            padding: 0%;
+            flex-wrap: wrap;
+        }
+        .textocentral {
+            padding: 0%;
+            flex-wrap: wrap-reverse;
+            font-size: 14px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        .circle1 {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin-left: 90px;
+            margin-right: 120px;
+        }
+        .circle1 img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            }
+        .navegacao-interna {
+            flex-wrap: wrap;
+            margin-right: 40px;
+        }
+        .navegacao-externa {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            margin-top: 18px;
+            margin-right: 140px;
+        }
+        .container-imagens {
+            margin-left: 90px;
+           
+        }
+        .aboutme {
+            padding: 10px;
+            font-size: 18px;
+        }   
     }
 
     /* Estilos para desktops */
@@ -174,4 +254,5 @@ h3 {
         body {
             font-size: inherit;
         }
+        
     }
